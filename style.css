@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+}
+
+/* CSS HEADER      ###DA CENTRARE IMMAGINE E TESTO */
+header{
+    background-color: white;
+    
+}
+#title{
+    display: inline-block;
+}
+#logo{
+    margin-left: 2%;
+    
+}
+
+/* CSS MAIN */
