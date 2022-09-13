@@ -33,6 +33,7 @@ main{
 }
 
 
+/* menu */
 .menu{
     padding: 1%;
     display: inline-block;
@@ -40,7 +41,40 @@ main{
     border-radius: 10px;   
 }
 
+/* css titoli */
+.titolo{
+    font-size: 20px;
+}
 .titolo::before{
     content: "\25BC";
     font-size: small;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
+
+/* css spaziatura fra i contenuti */
+#today,
+#upcoming,
+#new-task{
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+#today> div{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+#upcoming> div{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+#new-task> div{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+/* check and cross sui contenuti */
+
+
+
+/* Tipologia di contenuto editoriale, recruiting, ecc..  */
