@@ -14,9 +14,11 @@ header{
 }
 #title{
     display: inline-block;
+    vertical-align: middle;
 }
 #logo{
     margin-left: 2%;
+    vertical-align: middle;
     
 }
 
@@ -25,12 +27,15 @@ header{
 main{
     background-color: white;
     width: 70%;
+    
     margin: auto;
     margin-top: 5%;
+    margin-bottom: 5%;
     padding: 3%;
     border-radius: 5px;
 
 }
+
 
 
 /* menu */
@@ -40,6 +45,7 @@ main{
     border: 2px solid gray;
     border-radius: 10px;   
 }
+
 
 /* css titoli */
 .titolo{
@@ -61,20 +67,93 @@ main{
 }
 
 #today> div{
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: larger;
 }
 #upcoming> div{
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: larger;
 }
 #new-task> div{
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: larger;
 }
 
 /* check and cross sui contenuti */
-
+.check{
+    border: 1px solid green;
+    border-radius: 50%;
+}
+.cross{
+    color: red;
+    border: 1px solid rgb(243, 0, 0);
+    border-radius: 50%;
+}
 
 
 /* Tipologia di contenuto editoriale, recruiting, ecc..  */
+
+.blu{
+    background-color: rgb(41, 107, 182);
+    color: white;
+    padding: 2%;
+    border-radius: 15px;
+    font-size: 10px;
+    display: inline-block;
+    width: 70px;
+    text-align: center;
+
+}
+.viola{
+    background-color: rgb(114, 9, 175);
+    color: white;
+    padding: 2%;
+    border-radius: 15px;
+    font-size: 10px;
+    display: inline-block;
+    width: 70px;
+    text-align: center;
+}
+.azurro{
+    background-color: rgb(56, 222, 241);
+    color: white;
+    padding: 2%;
+    border-radius: 15px;
+    font-size: 10px;
+    display: inline-block;
+    width: 70px;
+    text-align: center;
+}
+.giallo{
+    background-color: rgb(232, 184, 40);
+    color: white;
+    padding: 2%;
+    border-radius: 15px;
+    font-size: 10px;
+    display: inline-block;
+    width: 70px;
+    text-align: center;
+}
+.rosa{
+    background-color: rgb(238, 62, 224);
+    color: white;
+    padding: 2%;
+    border-radius: 15px;
+    font-size: 10px;
+    display: inline-block;
+    width: 70px;
+    text-align: center;
+}
+.verde{
+    background-color: rgb(37, 235, 53);
+    color: white;
+    padding: 2%;
+    border-radius: 15px;
+    font-size: 10px;
+    display: inline-block;
+    width: 70px;
+    text-align: center;    
+}
