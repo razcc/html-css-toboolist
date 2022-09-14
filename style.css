@@ -54,7 +54,7 @@ main{
 
 
 /* css content */
-#content{
+.content{
     background-color: white;
     width: 80%;
     margin: auto;
@@ -62,7 +62,7 @@ main{
     padding: 20px;
 }
 
-#content>div{
+.content>div{
     margin: 20px;
     font-size: 30px;
 }
