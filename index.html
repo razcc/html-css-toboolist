@@ -10,76 +10,46 @@
 <body>
     <header>
         <img id="logo" src="img/Logo.png" alt="Logo">
-        <h1 id="title">Toboolist</h1>
+        <h1 id="logo-name">Toboolist</h1>
     </header>
 
     <main>
-        
-        <!-- Menu di selezione --> 
-    
-            <div class="menu">
+        <!-- selection menu -->
+        <div id="menu">
+            <div class="menu-selection menu-active">
                 Add Task
             </div>
-
-            <div class="menu">
-                Add Section
-            </div>  
-        
-        
-        
-
-        <!-- Contenuto -->
-        <div id="new-task">
-            <h2 class="titolo">
-                New Task
-            </h2>
-
-            <div>
-              <span class="check">&check;</span>   Quartely Newsletter <span class="blu">Editorial</span>
-            </div>
-        </div>
-
-        <!-- Secondo contenuto -->
-        <div id="today">
-            <h2 class="titolo">
-                Today
-            </h2>
-
-            <div>
-                <span class="check">&check;</span> Recruiting blog post <span class="blu">Editorial</span>
-            </div>
-            <div>
-                <span class="check">&check;</span> Recruiting blog post <span class="viola">Q1 Goals</span>
-            </div>
-            <div>
-                <span class="cross">&#935;</span> Recruiting blog post <span class="azurro">Recruiting</span>
-            </div>
-            <div>
-                <span class="check">&check;</span> Recruiting blog post <span class="giallo">Mobile</span>
+            <div class="menu-selection menu-disabled">
+                Add section
             </div>
         </div>
         
-
-        <!-- terzo contyenuto  -->
-        <div id="upcoming">
-            <h2 class="titolo">
-                Upcoming
-            </h2>
-
-            <div>
-                <span class="cross">&#935;</span> Recruiting blog post
-            </div>
-            <div>
-                <span class="check">&check;</span> Recruiting blog post <span class="rosa">Website</span>
-            </div>
-            <div>
-                <span class="check">&check;</span> Recruiting blog post <span class="verde">Sales</span>
-            </div>
-            <div>
-                <span class="check">&check;</span> Recruiting blog post <span class="blu">Editorial</span>
-            </div>
+        <!-- content of the website -->
+        <div id="content">
+            <h2 class="list-title">New Task</h2>
+            <div class="check editorial">Questley Newsletter</div>
         </div>
+
+        <div id="content">
+            <h2 class="list-title">Today</h2>
+            <div class="check editorial">Recruitin blog post</div>
+            <div class="check editorial">Mobile app luaunch</div>
+            <div class="cross editorial">Interview John H.</div>
+            <div class="check mobile">Summit update to mobile storefronts</div>
+        </div>
+
+        <div id="content">
+            <h2 class="list-title">Upcoming</h2>
+            <div class="cross">Schedule meeting with Alex</div>
+            <div class="check editorial">Homepage refresh</div>
+            <div class="check sales">Onboard new Sales team members</div>
+            <div class="check editorial">SReview editorial calendar</div>
+        </div>
+
         
+
     </main>
+        
+       
 </body>
 </html>
